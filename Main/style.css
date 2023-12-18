@@ -391,3 +391,108 @@ html {
 * {
 	font-family: 'Alegreya SC';
 }
+header {
+	max-width: 1920px;
+	max-height: 980px;
+	background-color: #000;
+}
+main {
+	max-width: 1920px;
+	max-height: 7777px;
+	flex-wrap: wrap;
+	position: relative;
+}
+header .container-1 {
+max-width: 1920px;
+max-height: 980px;
+flex-wrap: wrap;
+position: relative;
+}
+.header-logo {
+	right: 1600px;
+	top: 0px;
+	position: absolute;
+	z-index: 1;
+}
+.header-txt-1 {
+	width: 815px;
+	color: #FFF;
+	text-align: center;
+	font-size: 90px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	position: absolute;
+	left: 555px;
+	top: 146px;
+	z-index: 1;
+}
+.header-txt-2 {
+	width: 590px;
+	color: #FFF;
+	text-align: center;
+	font-size: 90px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	position: absolute;
+	left: 668px;
+	top: 408px;
+	z-index: 1;
+}
+.header-line-1 {
+	max-width: 815px;
+	position: absolute;
+	top: 120px;
+	left: 555px;
+	z-index: 1;
+}
+.header-line-2 {
+	max-width: 815px;
+	position: absolute;
+	top: 630px;
+	left: 555px;
+	z-index: 1;
+}
+.header-ticks {
+	position: absolute;
+	top: 785px;
+	left: 857px;
+	z-index: 1;
+}
+.header-background {
+	position: relative;
+	max-width: 1920px;
+	max-height: 980px;
+	opacity: 0.6;
+}
+.header-list {
+	max-width: 468px;
+	max-height: 37px;
+	bottom: 941px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	z-index: 1;
+	left: 1436px;
+	top: 5px;
+}
+.header-item {
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-right: 30px;
+	color: #000;
+}
+.header-item:last-child {
+	margin-right: 0px;
+}
+.header-link:hover, .header-link:focus, .header-link:active{
+	color: black;
+	font-size: 36px;
+}
+a, a:visited {
+	color: white;
+	text-decoration: none;
+}
