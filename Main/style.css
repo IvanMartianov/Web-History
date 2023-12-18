@@ -405,8 +405,8 @@ main {
 
 }
 header .container-1 {
-max-width: 1920px;
-max-height: 980px;
+width: 1920px;
+height: 980px;
 flex-wrap: wrap;
 position: relative;
 }
@@ -619,7 +619,7 @@ main .shadow-1 {
 .container-2 .txt {
 	margin-top: 10px;
 	margin-left: 10px;
-	width: 725px;
+	width: 700px;
 	height: 932px;
 	z-index: 1;
 	position: absolute;
@@ -645,4 +645,32 @@ main .link:hover, main .link:focus, main .link:active{
 main a, main a:visited {
 	color: #000;
 	text-decoration: underline;
+}
+.crosses {
+	position: relative;
+
+}
+.crosses .cross1 {
+	position: absolute;
+	z-index: 1;
+	left: -30px;
+	top: -30px;
+}
+.crosses .cross2 {
+	position: absolute;
+	z-index: 1;
+	left: 705px;
+	top: -30px;
+}
+.crosses .cross3 {
+	position: absolute;
+	z-index: 1;
+	left: -30px;
+	top: 1193px;
+}
+.crosses .cross4 {
+	position: absolute;
+	z-index: 1;
+	left: 705px;
+	top: 1193px;
 }
