@@ -731,3 +731,54 @@ main .shadow-1 {
 	top: 1410px;
 	left: 853px;
 }
+
+.knight {
+	position: relative;
+	top: -1765px;
+	left: 70px;
+	mix-blend-mode: multiply;
+	opacity: 0.85;
+}
+
+.arrow2 {
+	position: relative;
+	top: -2231px;
+	left: 44px;
+}
+
+.arrow3 {
+	position: relative;
+	top: -1360px;
+  left: -220px;
+}
+
+.container-4{
+	position: relative;
+	flex-wrap: wrap;
+	width: 1920px;
+	height: 1320px;
+	top: -1512px;
+}
+
+.bgmap {
+	z-index: 2;
+	position: absolute;
+}
+
+.map {
+	z-index: 3;
+	position: absolute;
+	top: 140px;
+  left: 230px;
+	mix-blend-mode: multiply;
+}
+
+.container-4 .rectangle {
+	position: absolute;
+}
+
+.container-4 .shadow {
+	z-index: 1;
+	position: absolute;
+	top: 850px;
+}
