@@ -292,6 +292,31 @@ flex-wrap: wrap;
 position: relative;
 }
 
+.header-link:hover, .header-link:focus, .header-link:active{
+	color: black;
+	transform: scale(1.1);
+}
+
+header a, header a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+main .link {
+	display: inline-block;
+	transition: transform 0.1s ease-in-out
+}
+
+main .link:hover, main .link:focus, main .link:active{
+	color: red;
+	transform: scale(1.05);
+}
+
+main a, main a:visited {
+	color: #000;
+	text-decoration: underline;
+}
+
 .header-logo {
 	right: 1600px;
 	top: 0px;
@@ -387,22 +412,12 @@ position: relative;
 	transition: transform 0.1s ease-in-out
 }
 
-.header-link:hover, .header-link:focus, .header-link:active{
-	color: black;
-	transform: scale(1.1);
-}
-
-header a, header a:visited {
-	color: white;
-	text-decoration: none;
-}
-
 main .container-1 {
-width: 476px;
-height: 800px;
-top: -185px;
-left: 111px;
-position: relative;
+	width: 476px;
+	height: 800px;
+	top: -185px;
+	left: 111px;
+	position: relative;
 }
 
 main .shadow-1 {
@@ -547,20 +562,6 @@ main .shadow-1 {
 	font-size: 40px;
 }
 
-main .link {
-	display: inline-block;
-	transition: transform 0.1s ease-in-out
-}
-
-main .link:hover, main .link:focus, main .link:active{
-	color: red;
-	transform: scale(1.05);
-}
-
-main a, main a:visited {
-	color: #000;
-	text-decoration: underline;
-}
 
 .crosses {
 	position: relative;
@@ -694,6 +695,7 @@ main a, main a:visited {
 }
 
 .container-3 .txt {
+	color: #000;
 	z-index: 5;
 	width: 850px;
 	margin-left: 10px;
@@ -703,4 +705,29 @@ main a, main a:visited {
 	text-align: left;
 	font-style: normal;
 	line-height: normal;
+}
+
+.container-3 .cross1 {
+	z-index: 6;
+	position: absolute;
+	left: -30px;
+	top: -30px;
+}
+.container-3 .cross2 {
+	z-index: 6;
+	position: absolute;
+	top: 1410px;
+	left: -30px;
+}
+.container-3 .cross3 {
+	z-index: 6;
+	position: absolute;
+	top: -30px;
+	left: 853px;
+}
+.container-3 .cross4 {
+	z-index: 6;
+	position: absolute;
+	top: 1410px;
+	left: 853px;
 }
